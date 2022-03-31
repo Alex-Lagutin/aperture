@@ -1,21 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Aperture</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/jquery.fancybox.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <a class="logo" href="#">
+          <img class="logo__img" src="./images/logo.svg" alt="logo">
+        </a>
+        <span class="logo__description">Business areas</span>
+        <nav class="menu">
+          <button class="menu__btn"><span></span></button>
+          <ul class="menu__list">
+            <li class="menu__item"><a class="menu__link" href="#">Featured images</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Gear cage</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <a class="header__top-link" href="#">Get template</a>
+      </div>
+    </div>
+    <div class="header__content">
+      <div class="container">
+        <div class="header__inner">
+          <span class="header__description">Photographer & Filmmaker</span>
+          <h1 class="header__title">Aperture Studios</h1>
+          <p class="header__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in
+            eros
+            elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+            vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+            tristique
+            posuere.</p>
+        </div>
+      </div>
+      <div class="cam-setings">
+        <div class="cam-setings__inner">
+          <img class="cam-setings__img" src="./images/time.svg" alt="time"><span
+            class="cam-setings__text">1/2000s</span></div>
+        <div class="cam-setings__inner">
+          <img class="cam-setings__img" src="./images/diafragma.svg" alt="diafragma"><span
+            class="cam-setings__text">f/11</span>
+        </div>
+        <div class="cam-setings__inner">
+          <img class="cam-setings__img" src="./images/iso.svg" alt="time"><span class="cam-setings__text">100</span>
+        </div>
+        <div class="cam-setings__inner">
+          <img class="cam-setings__img" src="./images/geo.svg" alt="time"><span class="cam-setings__text">iseland</span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="what">
+      <div class="container">
+        <h2 class="title">What we do.</h2>
+        <p class="what__descroption">The areas that we're specialized in.</p>
+        <div class="what__inner">
+          <div class="what__item">
+            <img class="what__img" src="./images/photo-1.jpg" alt="photo-1">
+            <div class="what__text">
+              <h3 class="what__title">Product Photography</h3>
+              <p class="what__description">Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur
+                auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus <br>quam.</p>
+              <div class="button">
+                <a class="what__btn" href="#">
+                  <p class="what__btn-text">Read more</p>
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+          <div class="what__item">
+            <img class="what__img" src="./images/photo-2.jpg" alt="photo-2">
+            <div class="what__text">
+              <h3 class="what__title">Architecture Photography</h3>
+              <p class="what__description">Aenean porta neque eget consequat fringilla. Vestibulum ultrices, orci nec
+                egestas pharetra, ligula est semper enim, nec auctor sapien leo nec purus. Fusce tincidunt aliquet
+                sapien, sit amet rhoncus leo imperdiet nec.</p>
+              <div class="button">
+                <a class="what__btn" href="#">
+                  <p class="what__btn-text">Read more</p>
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="what__item">
+            <img class="what__img" src="./images/photo-3.jpg" alt="photo-3">
+            <div class="what__text">
+              <h3 class="what__title">Drone Photography</h3>
+              <p class="what__description">Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt. Duis
+                tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non. Nulla
+                efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.</p>
+              <div class="button">
+                <a class="what__btn" href="#">
+                  <p class="what__btn-text">Read more</p>
+                </a>
+              </div>
+            </div>
+
+          </div>
+          <div class="what__item">
+            <img class="what__img" src="./images/photo-4.jpg" alt="photo-4">
+            <div class="what__text">
+              <h3 class="what__title">Wildlife Photography</h3>
+              <p class="what__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque
+                aliquam odio et faucibus. Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum
+                dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis.</p>
+              <div class="button">
+                <a class="what__btn" href="#">
+                  <p class="what__btn-text">Read more</p>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sanset">
+      <div class="sanset__inner">
+        <h3 class="sanset__title">Sunset at Mount Fuji</h3>
+        <p class="sanset__description">
+          Duis tristique sed lorem a vestibulum. Cras commodo consequat orci, in convallis risus egestas non.
+        </p>
+      </div>
+    </div>
+    <div class="cam-setings cam-setings__sanset ">
+      <div class="cam-setings__inner">
+        <img class="cam-setings__img" src="./images/time.svg" alt="time"><span class="cam-setings__text">1"</span>
+      </div>
+      <div class="cam-setings__inner">
+        <img class="cam-setings__img" src="./images/diafragma.svg" alt="diafragma"><span
+          class="cam-setings__text">f/16</span>
+      </div>
+      <div class="cam-setings__inner">
+        <img class="cam-setings__img" src="./images/iso.svg" alt="time"><span class="cam-setings__text">400</span>
+      </div>
+      <div class="cam-setings__inner">
+        <img class="cam-setings__img" src="./images/geo.svg" alt="time"><span class="cam-setings__text">Japan</span>
+      </div>
+    </div>
+    <div class="tools">
+      <div class="tools__inner">
+        <div class="tools__item">
+          <div class="tools__item-box">
+            <span class="tools__item-description">The Gear cage</span>
+            <h3 class="tools__item-title">The tools that we use.</h3>
+
+            <p class="tools__item-text">The say that "no place is boring if you've had a good night's sleep and have a
+              pocket full of unexposed film". While we don't shoot (a lot) of film these days — these are the tools that
+              we actually use everyday to capture the amazing things around us.</p>
+            <div class="button button__tools">
+              <a class="what__btn" href="#">
+                <p class="what__btn-text ">Check it out</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tools__item">
+          <div class="tools__item-img">
+            <img class="tools__img" src="./images/tools.jpg" alt="tools">
+            <div class="cam-setings cam-tools ">
+              <div class="cam-setings__inner">
+                <img class="cam-setings__img" src="./images/time.svg" alt="time"><span
+                  class="cam-setings__text">0,8"</span>
+              </div>
+              <div class="cam-setings__inner">
+                <img class="cam-setings__img" src="./images/diafragma.svg" alt="diafragma"><span
+                  class="cam-setings__text">f/5,6</span>
+              </div>
+              <div class="cam-setings__inner">
+                <img class="cam-setings__img" src="./images/iso.svg" alt="time"><span
+                  class="cam-setings__text">100</span>
+              </div>
+              <div class="cam-setings__inner">
+                <img class="cam-setings__img" src="./images/geo.svg" alt="time"><span
+                  class="cam-setings__text">Sweden</span>
+              </div>
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="monstera">
+      <div class="monstera__inner">
+        <h3 class="monstera__title">Monstera Leafs</h3>
+        <p class="monstera__description">
+          Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.
+        </p>
+      </div>
+    </div>
+    <div class="cam-setings cam-setings__sanset ">
+      <div class="cam-setings__inner">
+        <img class="cam-setings__img" src="./images/time.svg" alt="time"><span class="cam-setings__text">1/400s</span>
+      </div>
+      <div class="cam-setings__inner">
+        <img class="cam-setings__img" src="./images/diafragma.svg" alt="diafragma"><span
+          class="cam-setings__text">f/3,5</span>
+      </div>
+      <div class="cam-setings__inner">
+        <img class="cam-setings__img" src="./images/iso.svg" alt="time"><span class="cam-setings__text">400</span>
+      </div>
+      <div class="cam-setings__inner">
+        <img class="cam-setings__img" src="./images/geo.svg" alt="time"><span class="cam-setings__text">Costa
+          Rica</span>
+      </div>
+    </div>
+    <div class="clients">
+      <div class="container">
+        <div class="clients__inner">
+          <h2 class="client__title">Past clients</h2>
+          <span class="clients__description">Trusted by your favourite companies</span>
+          <div class="clients__items">
+            <div class="clients__item"><img class="clients__item-img" src="./images/clients-1.png" alt="clients-1">
+            </div>
+            <div class="clients__item"><img class="clients__item-img" src="./images/clients-2.png" alt="clients-2">
+            </div>
+            <div class="clients__item"><img class="clients__item-img" src="./images/clients-3.png" alt="clients-3">
+            </div>
+            <div class="clients__item"><img class="clients__item-img" src="./images/clients-4.png" alt="clients-4">
+            </div>
+            <div class="clients__item"><img class="clients__item-img" src="./images/clients-5.png" alt="clients-5">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="star">
+      <div class="star__inner">
+        <h3 class="star__title">Star fall in the Himalayas</h3>
+        <p class="star__description">
+          Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut
+          ligula.
+        </p>
+      </div>
+    </div>
+    <div class="cam-setings cam-setings__star ">
+      <div class="cam-setings__inner">
+        <img class="cam-setings__img" src="./images/time.svg" alt="time"><span class="cam-setings__text">1/6"</span>
+      </div>
+      <div class="cam-setings__inner">
+        <img class="cam-setings__img" src="./images/diafragma.svg" alt="diafragma"><span
+          class="cam-setings__text">f/11</span>
+      </div>
+      <div class="cam-setings__inner">
+        <img class="cam-setings__img" src="./images/iso.svg" alt="time"><span class="cam-setings__text">800</span>
+      </div>
+      <div class="cam-setings__inner">
+        <img class="cam-setings__img" src="./images/geo.svg" alt="time"><span class="cam-setings__text">Nepal</span>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__text">
+        <h3 class="footer__title">Need help with photography or videography?</h3>
+        <span class="footer__description">We're here for you!</span>
+        <div class="button button__footer">
+          <a class="what__btn" href="#">
+            <p class="what__btn-text ">Get in touch</p>
+          </a>
+        </div>
+      </div>
+      <div class="footer__top">
+        <div class="footer__column">
+          <div class="footer__top-logo"><img class="footer__logo" src="./images/logo.svg" alt="logo">
+            <p class="footer__top-description">Photographers & videographers capturing the world around us.</p>
+          </div>
+
+        </div>
+        <div class="footer__column">
+          <div class="footer__column-areas">
+            <p class="footer__column-item-title ">Business areas</p>
+            <ul class="footer__column-list">
+              <li class="footer__column-item"><a class="footer__column-link" href="#">Product Photography</a></li>
+              <li class="footer__column-item"><a class="footer__column-link" href="#">Architecture Photography</a></li>
+              <li class="footer__column-item"><a class="footer__column-link" href="#">Drone Photography</a></li>
+              <li class="footer__column-item"><a class="footer__column-link" href="#">Wildlife Photography</a></li>
+            </ul>
+          </div>
+          <div class="footer__column-pegas">
+            <p class="footer__column-item-title ">Pages</p>
+            <ul class="footer__column-list">
+              <li class="footer__column-item"><a class="footer__column-link" href="#">Gear cage</a></li>
+              <li class="footer__column-item"><a class="footer__column-link" href="#">Featured images</a></li>
+              <li class="footer__column-item"><a class="footer__column-link" href="#">Contact</a></li>
+              <li class="footer__column-item"><a class="footer__column-link" href="#">Style guide</a></li>
+              <li class="footer__column-item"><a class="footer__column-link" href="#">Instructions</a></li>
+              <li class="footer__column-item"><a class="footer__column-link" href="#">Changelog</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <div class="header__subscribe">
+        <div class="header__subscribe-text">
+          <div class="header__subscribe-title">Subscribe to our newsletter</div>
+          <div class="header__subscribe-description">Read about all the things we do.</div>
+        </div>
+        <form class="form" action="">
+          <input class="input" type="text" placeholder="E-mail:">
+          <button class="header__subscribe-btn" type="submit"></button>
+        </form>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copirate">© Aperture Photography, Inc. All rights reserved.</p>
+        <div class="footer__sicial">
+          <ul class="footer__social-list">
+            <li class="footer__social-item"><a class="footer__social-link" href="#">
+                <img class="footer__social-img" src="./images/twitter.svg " alt="twitter"></a>
+            </li>
+            <li class="footer__social-item"><a class="footer__social-link" href="#">
+                <img class="footer__social-img" src="./images/instagram.svg" alt="instagram"></a>
+            </li>
+            <li class="footer__social-item"><a class="footer__social-link" href="#">
+                <img class="footer__social-img" src="./images/meta.svg" alt="meta"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+    </div>
+  </footer>
+
+  <script src=" js/jquery.min.js"> </script>
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/main.js"></script>
 </body>
+
 </html>
